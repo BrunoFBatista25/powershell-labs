@@ -1,18 +1,19 @@
 
 ***Primeiros passos com o PowerShell***
 
-==================================
+ ==================================
     *Navegação pelo terminal*
-==================================
+ ==================================
 
 - pwd   [indica a localização]
 - ls    [Lista arquivos e pastas do diretório]
 - cd    [Mesma coisa que CMD]
 - cd .. [Mesma coisa que CMD]
 
-==================================
+ ==================================
+
        *Arquivos e Pastas*
-==================================
+ ==================================
 
 - mkdir       [Mesmo coisa que CMD]
 - New-Item    [cria arquivo]
