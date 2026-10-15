@@ -1,8 +1,7 @@
 ***Primeiros passos com o PowerShell***
 
- ==================================
-    *Navegação pelo terminal*
- ==================================
+<h1>Navegação pelo terminal</h1>
+
 
 - pwd   [indica a localização]
 - ls    [Lista arquivos e pastas do diretório]
@@ -15,10 +14,9 @@
     - -Path         [define a pasta de destino (opcional)]
 - cd .. [Mesma coisa que CMD]
 
- ==================================
 
-       *Arquivos e Pastas*
- ==================================
+<h1>Arquivos e Pastas</h1>
+
 
 - mkdir 
 
