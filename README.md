@@ -13,28 +13,20 @@ Praticar a escrita de scripts PowerShell de forma progressiva, partindo dos fund
 
 ---
 
-## 📚 O que você vai encontrar aqui
-
-- Scripts de estudo com comentários explicando cada etapa
-- Exercícios sobre sintaxe, variáveis, estruturas de controle e funções
-- Automações voltadas a chamados de suporte (diagnóstico, rede, usuários, sistema)
-- Anotações sobre boas práticas e erros comuns
-
----
-
 ## 🗂️ Estrutura do repositório
-
-> Ajuste conforme as pastas que você realmente tem.
 
 ```
 powershell-labs/
-├── 01-fundamentos/      # variáveis, tipos, operadores
-├── 02-controle/         # if, switch, foreach, while
-├── 03-funcoes/          # funções e parâmetros
-├── 04-rede/             # Test-Connection, ipconfig, DNS
-├── 05-sistema/          # processos, serviços, logs
+├── Notes/       # anotações de estudo (conceitos, comandos, boas práticas)
+├── Pratica/     # scripts e exercícios práticos (.ps1)
+├── LICENSE      # licença MIT
 └── README.md
 ```
+
+| Pasta | Conteúdo |
+| ----- | -------- |
+| 📝 **Notes** | Anotações organizadas por tema, com explicações e exemplos de comandos |
+| 🧪 **Pratica** | Scripts `.ps1` escritos para fixar o que foi estudado nas notas |
 
 ---
 
@@ -51,9 +43,9 @@ powershell-labs/
    Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
 
-3. Execute o script desejado:
+3. Execute um script da pasta `Pratica`:
 ```powershell
-   .\pasta\nome-do-script.ps1
+   .\Pratica\nome-do-script.ps1
 ```
 
 > ⚠️ Leia o código antes de rodar qualquer script, principalmente em máquinas de produção.
@@ -93,6 +85,12 @@ if (Test-Connection -ComputerName $destino -Count 2 -Quiet) {
 - [ ] Manipulação de arquivos e logs
 - [ ] Scripts de diagnóstico de rede
 - [ ] Automação de rotinas de suporte N1
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
